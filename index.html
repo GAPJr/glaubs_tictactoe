@@ -12,64 +12,145 @@
         />
 
         <link rel="stylesheet" href="./style.css" />
-        <title>Jogo da Velha</title>
+        <title>Tic Tac Toe</title>
     </head>
     <body>
-        <div class="">
-            <div id="whos_turn" class="row score justify-content-center">
-                Jogo da Velha:
-                <button
-                    class="btn col-3 m-3 btn-dark btn-glaubs"
-                    name="btn_who"
-                    id="btn_who"
-                >
-                    <i class="fas fa-cat"></i>
-                    <i class="fas fa-dog d-none"></i>
-                </button>
+        <header>
+            <nav
+                class="
+                    navbar
+                    sticky-top
+                    navbar-light
+                    bg-secondary bg-opacity-25
+                "
+            >
                 <div class="container">
-                    <div class="row row-col-3 justify-content-center">
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn1" id="btn1">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn2" id="btn2">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn3" id="btn3">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                    </div>
-                    <div class="row row-col-3 justify-content-center">
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn4" id="btn4">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn5" id="btn5">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn6" id="btn6">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                    </div>
-                    <div class="row row-col-3 justify-content-center">
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn7" id="btn7">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn8" id="btn8">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                        <button class="col m-3 btn btn-dark btn-glaubs" name="btn9" id="btn9">
-                            <i class="fas fa-cat d-none img img-responsive full-width"></i>
-                            <i class="fas fa-dog d-none img img-responsive full-width"></i>
-                        </button>
-                    </div>
+                    <a class="navbar-brand" href="./index.html">Tic Tac Toe</a>
+                    <button
+                        class="btn row m-3 btn-dark"
+                        name="btn_who"
+                        id="btn_who"
+                    >
+                        <i class="fas fa-cat"></i>
+                        <i class="fas fa-dog d-none"></i>
+                    </button>
                 </div>
+            </nav>
+        </header>
+        <div class="container-fluid text-center">
+            <div class="row row-col-3 justify-content-center">
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn1"
+                    id="btn1"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn2"
+                    id="btn2"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn3"
+                    id="btn3"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+            </div>
+            <div class="row row-col-3 justify-content-center">
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn4"
+                    id="btn4"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn5"
+                    id="btn5"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn6"
+                    id="btn6"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+            </div>
+            <div class="row row-col-3 justify-content-center">
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn7"
+                    id="btn7"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn8"
+                    id="btn8"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
+                <button
+                    class="col-3 m-3 btn btn-dark"
+                    name="btn9"
+                    id="btn9"
+                >
+                    <i
+                        class="fas fa-cat d-none img img-responsive full-width"
+                    ></i>
+                    <i
+                        class="fas fa-dog d-none img img-responsive full-width"
+                    ></i>
+                </button>
             </div>
         </div>
 
