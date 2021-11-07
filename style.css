@@ -1,8 +1,10 @@
  .fa-cat{
-     color: rgb(233, 202, 103) ;
+     font-size: 2rem;
+     color: rgb(233, 202, 103);
  }
 
  .fa-dog{
+     font-size: 2rem;
      color: rgb(95, 170, 175);
  }
 
@@ -21,3 +23,12 @@
    }
  }
 
+ .btn {
+     height: 10rem;
+     width: 10rem;
+ }
+
+ #btn_who{
+    height: 5rem;
+    width: 5rem;
+ }
